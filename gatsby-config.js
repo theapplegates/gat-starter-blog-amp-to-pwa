@@ -3,7 +3,7 @@ module.exports = {
     title: `Gatsby Starter Blog (AMP to PWA)`,
     author: `Tomoyuki Kashiro`,
     description: `A starter blog (AMP to PWA) demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-amp-to-pwa.netlify.com/`,
+    siteUrl: `https://gat-amp-pwa-theme.netlify.com/`,
     social: {
       twitter: `kylemathews`,
     },
@@ -30,6 +30,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
+              withWebp: true,
               maxWidth: 590,
             },
           },
